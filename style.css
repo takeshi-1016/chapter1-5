@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+}
+
+h1 {
+  margin: 20px auto;
+}
+
+nav{
+  border-top: solid #000 1px;
+  border-bottom: solid #000 1px;
+}
+
+ul{
+  text-align: center;
+  margin: 15px auto;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+
+main{
+  text-align: center;
+  margin: 50px auto;
+}
+
+div{
+  font-size: 0;
+}
+
+span{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+.first :nth-child(1){
+  background-color: #e6ffe9;
+}
+.first :nth-child(2){
+  background-color: #cbffd3;
+}
+.first :nth-child(3){
+  background-color: #aeffbd;
+}
+.first :nth-child(4){
+  background-color: #93ffab;
+}
+
+.second :nth-child(1){
+  background-color: #f3ffd8;
+}
+.second :nth-child(2){
+  background-color: #edffbe;
+}
+.second :nth-child(3){
+  background-color: #e9ffa5;
+}
+.second :nth-child(4){
+  background-color: #e4ff8d;
+}
+
+.third :nth-child(1){
+  background-color: #d9e5ff;
+}
+.third :nth-child(2){
+  background-color: #bad3ff;
+}
+.third :nth-child(3){
+  background-color: #a4c6ff;
+}
+.third :nth-child(4){
+  background-color: #8eb8ff;
+}
+
+
+
+footer{
+  text-align: center;
+  height: 120px;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+p{
+  color: #fff;
+}
